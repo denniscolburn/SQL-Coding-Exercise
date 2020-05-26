@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath files("db/hsqldb/lib/hsqldb.jar")
+    }
+}
+apply from: 'HSQLDB.gradle'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '7.1.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+    testCompile group: 'org.hsqldb', name: 'hsqldb', version: '2.5.0'
+}
+
+test {
+    //useJUnitPlatform()
+    useTestNG()
+    testLogging {
+        showStandardStreams = true
+    }
+}
