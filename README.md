@@ -42,7 +42,7 @@
 
 ##### Part 1: 
 
-`At the end of the README file, document the test cases you think are necessary to validate the 'totalAmountOfInvoicesById' method in the "com/rr19/example/application/InvoicePriceCalculator" class. (Note: This class should NOT be modify or changed in any fashion.`   <br>
+`At the end of the README file, document the test cases you think are necessary to validate the totalAmountOfInvoicesById method in the [com/rr19/example/application/InvoicePriceCalculator] class. (Note: This class should NOT be modify or changed in any fashion.`   <br>
 `In addition, don't hesitate to add any notes, observations, concerns or suggestions`
 
 ##### Part 2: 
