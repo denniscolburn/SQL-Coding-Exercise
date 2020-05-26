@@ -40,12 +40,16 @@
 
 ##### <u>Exercise #3</u>
 
-#####Part 1: 
+##### Part 1: 
+
 `At the end of the README file, document the test cases you think are necessary to validate the 'totalAmountOfInvoicesById' method in the "com/rr19/example/application/InvoicePriceCalculator" class. (Note: This class should NOT be modify or changed in any fashion.`   <br>
-`In addition, don't hesitate to add any notes, observations, concerns or suggestions` <br>
-#####Part 2: 
+`In addition, don't hesitate to add any notes, observations, concerns or suggestions`
+
+##### Part 2: 
+
 `Code the majority of the documented test cases` 
-<br>
+
+
 <hr>
 
 #####Test Cases:
