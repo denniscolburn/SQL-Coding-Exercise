@@ -54,4 +54,8 @@
 
 #### Test Cases:
 
-1.
+1. Customer with no invoices should return 0
+2. Customer with 1 invoice with no items should return zero
+3. Customer with 1 invoice with 1 or more items should return total of items multiplied by product price
+4. Customer with more than 1 invoice with 1 or more items should return the total of items multiplied by product price
+5. Customer with more than 1 invoice with no items should return 0
